@@ -45,7 +45,7 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8003
 ## FAST API Docs url:
 http://0.0.0.0:8003/docs#/
 
-<img width=50% src="assets/images/fast_api.png" alt="fast_api">    
+<img width=60% src="assets/images/fast_api.png" alt="fast_api">    
 
 Ready to start your object detection journey with YOLO11-FastAPI? 🚀
 
