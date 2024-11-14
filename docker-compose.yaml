@@ -1,0 +1,11 @@
+version: '3'
+services:
+  yolo11_fastapi:
+    build: .
+    restart: "always"
+    volumes:
+    - ./:/app
+    working_dir: /app
+    ports:
+      - "8001:8001"
+    command: uvicorn app:app --reload --host 0.0.0.0 --port 8003
