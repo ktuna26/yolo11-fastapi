@@ -1,11 +1,12 @@
 # YOLO11-FastAPI
-<img width="80%" src="https://raw.githubusercontent.com/ktuna26/yolo11-fastapi/main/.github/images/ultralytics-yolo11.png" alt="yolo11"></a>
+<img width="30%" src="assets/images/ultralytics-yolo11.png" alt="yolo11"></a>
 
 This repository serves a simple object detection service using Ultralytics and FastAPI. With the help of YOLO11, you can detect the objects on the images/frames and with the help of FastAPI, you can create a modern, fast (high-performance) web framework for building APIs. This project also includes Docker, a platform for easily building, shipping, and running distributed applications.
 
 ### Sample
 Here's a sample of what you can expect to see with this project:
-<img width=600 src="./tests/res/fastapi_sample.png" alt="">
+
+<img width="60%" src="assets/images/results.png" alt="yolo11"></a>
 
 # What's inside:
 
@@ -13,7 +14,7 @@ Here's a sample of what you can expect to see with this project:
 - FastAPI: A modern, fast (high-performance) web framework for building APIs
 - Docker: A platform for easily building, shipping, and running distributed applications
 
-<img width="100%" src="https://raw.githubusercontent.com/ultralytics/assets/refs/heads/main/yolo/performance-comparison.png" alt="ultralytics"></a>
+<img width="80%" src="https://raw.githubusercontent.com/ultralytics/assets/refs/heads/main/yolo/performance-comparison.png" alt="ultralytics"></a>
 
 ---
 # Getting Started
@@ -44,7 +45,7 @@ uvicorn main:app --reload --host 0.0.0.0 --port 8003
 ## FAST API Docs url:
 http://0.0.0.0:8003/docs#/
 
-<img width=600 src="https://raw.githubusercontent.com/ktuna26/yolo11-fastapi/main/.github/images/fast_api.png" alt="fast_api">    
+<img width=50% src="assets/images/fast_api.png" alt="fast_api">    
 
 Ready to start your object detection journey with YOLO11-FastAPI? 🚀
 
